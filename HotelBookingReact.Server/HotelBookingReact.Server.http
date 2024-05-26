@@ -1,0 +1,19 @@
+@HotelBookingReact.Server_HostAddress = https://localhost:7066
+
+GET {{HotelBookingReact.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{HotelBookingReact.Server_HostAddress}}/api/hotel
+
+###
+
+POST {{HotelBookingReact.Server_HostAddress}}/api/booking
+Content-Type: application/json
+
+{
+  //Booking
+}
+
+###
